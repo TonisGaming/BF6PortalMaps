@@ -1,4 +1,4 @@
-[gd_scene load_steps=319 format=3 uid="uid://bdrp0oqs3j325"]
+[gd_scene load_steps=393 format=3 uid="uid://bdrp0oqs3j325"]
 
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/HQ_PlayerSpawner.tscn" id="1_sjxpq"]
 [ext_resource type="PackedScene" uid="uid://jv31so3xcr7p" path="res://addons/bf_portal/portal_tools/types/PolygonVolume/PolygonVolume.tscn" id="2_l65l0"]
@@ -183,7 +183,6 @@
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Military/Props/CratePallet_01.tscn" id="202_mpxvx"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Military/Props/CratePallet_02_B.tscn" id="203_h71d5"]
 [ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Architecture/BR_Art_Structure_01_B.tscn" id="204_0c1y5"]
-[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/Dumpster_01_C.tscn" id="204_esj2m"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/Dumpster_02.tscn" id="205_bi5jj"]
 [ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Architecture/Art_Structure_01.tscn" id="205_esj2m"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/Dumpster_01_Open.tscn" id="206_tjvdw"]
@@ -298,12 +297,87 @@
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/PipeMetalStack_01_B.tscn" id="313_lgr2n"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/PipeMetalStack_01_A.tscn" id="314_wpwia"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/PilePlanks_02.tscn" id="315_nkdtk"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/OfficeDividerWood_01_512.tscn" id="319_viv7y"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/PalletWooden_01.tscn" id="320_b7b1i"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/OfficeDividerWood_01_256.tscn" id="320_qg5ry"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/LoungeTable_01.tscn" id="321_6tlx8"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/LoungeTable_03.tscn" id="322_cptg7"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Generic/Common/Props/LoungeChair_01.tscn" id="323_1uwib"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/PatioChair_02.tscn" id="324_dyn22"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BarCounterCabinet_03_128.tscn" id="325_amaps"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BarCounterCabinet_03_256.tscn" id="326_sy4xd"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BarCounterFridge_01.tscn" id="327_tnkap"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Military/Props/PalletAirDrop_01.tscn" id="327_vok44"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BarCounterGlassFridge_01.tscn" id="328_0e2qp"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BarCounterWorkStation_01.tscn" id="329_kexyf"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Generic/Common/Props/BarCounter_02.tscn" id="330_biumw"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Props/CounterStore_02.tscn" id="331_34f1i"]
 [ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Industrial/Architecture/MetalSatck_02.tscn" id="331_fy58o"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/Laptop_01.tscn" id="332_5lo51"]
 [ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/Ladder_01B.tscn" id="333_assc1"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Props/CoffeeShopStool_01_A.tscn" id="333_bix6h"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/AgaveAmericanaPotted_01_S_A.tscn" id="334_fq68y"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/Ladder_01.tscn" id="334_u44dm"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/BananaPotted_01_S_C.tscn" id="335_t3eoc"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Nature/BoxwoodPotted_01_S_A.tscn" id="336_o5y48"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Generic/Common/Nature/BoxwoodPotted_01_S_B.tscn" id="337_xu0iv"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/DracaenaPotted_01_S_A.tscn" id="338_gvm5h"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/DracaenaPotted_01_S_B.tscn" id="339_j24y0"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/DracaenaPotted_01_S_C.tscn" id="340_qogiv"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/EucalyptusSilverDollarPotted_01_M_A.tscn" id="341_5eas4"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Generic/Common/Nature/EucalyptusSilverDollarPotted_01_M_B.tscn" id="342_c3r02"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/EuonymusGreenPotted_01_S.tscn" id="343_kd8vv"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/FigWeepingPotted_01_M_A.tscn" id="344_1xaul"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/FlowerMiscPotted_01_S_A.tscn" id="345_l2ikj"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Nature/FlowerMiscPotted_01_S_C.tscn" id="346_8a8g2"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Nature/FlowerMiscPotted_01_S_D.tscn" id="347_uqff3"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/FlowerMiscPotted_03_S.tscn" id="348_otnlg"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Generic/Common/Nature/FlowerMiscPotted_04_S.tscn" id="349_30krh"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/FlowerMiscPotted_05_S.tscn" id="350_btt0h"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/PalmMajestyPotted_01_M_A.tscn" id="351_bgebd"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/FlowerMiscPotted_09_S.tscn" id="352_8n30m"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/PottedPlant_03.tscn" id="353_snupu"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/PottedPlant_05.tscn" id="354_r4a03"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Nature/RubberPlantPotted_01_S_B.tscn" id="355_2py7f"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Generic/Common/Props/CoffeeMaker_01.tscn" id="355_7u5kj"]
+[ext_resource type="PackedScene" path="res://objects/Global/Props/BeverageFridge_01_B.tscn" id="356_dkexw"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/CoveredFurniture_01_A.tscn" id="357_oegou"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/CoveredFurniture_01_C.tscn" id="358_874uh"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/ShelfMetal_01.tscn" id="359_tcpo2"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Architecture/WaterTower_03.tscn" id="360_die2c"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Props/TrashCan_01_A.tscn" id="361_ulqdq"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/GardenTable_01.tscn" id="362_ee0ft"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/TableFoldable_01_A.tscn" id="363_plsok"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Military/Props/TableFoldable_01_B.tscn" id="364_iga3d"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/TableRestaurantSquare_01.tscn" id="365_5daum"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/Dumpster_01_B.tscn" id="365_dpdwc"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/FoldingTable_01.tscn" id="366_gpayw"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/CastIronChair_01.tscn" id="367_qiyu6"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/ChairFolding_01_B.tscn" id="368_721u1"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/ChairFolding_01_A.tscn" id="369_d0ym3"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/GardenChair_01.tscn" id="370_2jgg2"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Props/PatioChair_01.tscn" id="371_u1tul"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BoxesCardboardStack_01_B.tscn" id="372_bb1j4"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/BoxesCardboardStack_01_D.tscn" id="373_sqj36"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BoxesCardboardStack_02_B.tscn" id="374_jk0ns"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/BoxesCardboardStack_03_B.tscn" id="375_fl5t2"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/BorderFenceDoorFrame_01.tscn" id="376_re36l"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/BorderFence_01_2048.tscn" id="377_xo8vd"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BorderFencePole_02.tscn" id="378_t28id"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/BorderFence_01_512.tscn" id="379_3p7pc"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/BorderFenceVehicleGate_01.tscn" id="380_x0mlr"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/BorderFenceDoor_01.tscn" id="381_imrp1"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Military/Architecture/CoverMedium_02.tscn" id="382_lo5ts"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/ChainLinkFenceTarp_01_512.tscn" id="383_cdxbq"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Generic/Common/Props/BannerWall_01.tscn" id="384_gi0ny"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Industrial/Architecture/StorageWallReinforced_01_1024x768.tscn" id="385_u6m8d"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Industrial/Architecture/StorageWallReinforced_01_512x384.tscn" id="386_q4ffr"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Industrial/Architecture/StorageWallLarge_01_C_512x384_OpaqueIndestructible.tscn" id="387_ujngg"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Props/WallBasement_01_128.tscn" id="388_fsm1r"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Props/WallBasement_01_128_C90.tscn" id="389_jaahk"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Props/WallBasement_01_128_End.tscn" id="390_puxub"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Props/WallBasement_01_256.tscn" id="391_s8xhn"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/WallRack_01.tscn" id="392_gfr7b"]
 [ext_resource type="PackedScene" path="res://objects/Global/Generic/Military/Props/CrateAmmo_02.tscn" id="395_xq087"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/ContainerTrash_01.tscn" id="417_binkb"]
 [ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/ConstructionBarrierSet_01_B.tscn" id="430_j0kem"]
@@ -499,6 +573,7 @@ transform = Transform3D(-3.09086e-08, 0.707107, 0.707107, 3.09086e-08, -0.707107
 VerticalSafeAreaFactor = 1.0
 
 [node name="Static" type="Node3D" parent="."]
+visible = false
 
 [node name="MP_Dumbo_Terrain" parent="Static" instance=ExtResource("5_hytrr")]
 
@@ -2049,12 +2124,6 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -73.7,
 [node name="BarrierJerseyFence_28" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -78.8, -11.237, 13.1)
 
-[node name="BarrierJerseyFence_06" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 55.7, -11.237, 13.1)
-
-[node name="BarrierJerseyFence_07" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 50.6, -11.237, 13.1)
-
 [node name="BarrierJerseyFence_42" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 55.7, -11.237, -67.6)
 
@@ -2177,54 +2246,6 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -84.4,
 
 [node name="BarrierJerseyFence_85" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -84.4, -11.237, 7.39996)
-
-[node name="BarrierJerseyFence_08" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, 7.70001)
-
-[node name="BarrierJerseyFence_15" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, 2.70001)
-
-[node name="BarrierJerseyFence_26" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -2.29999)
-
-[node name="BarrierJerseyFence_29" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -7.29999)
-
-[node name="BarrierJerseyFence_30" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -12.3)
-
-[node name="BarrierJerseyFence_31" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -17.3)
-
-[node name="BarrierJerseyFence_32" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -22.3)
-
-[node name="BarrierJerseyFence_33" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -27.3)
-
-[node name="BarrierJerseyFence_34" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -32.3)
-
-[node name="BarrierJerseyFence_35" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -37.3)
-
-[node name="BarrierJerseyFence_36" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -42.3)
-
-[node name="BarrierJerseyFence_37" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -47.3)
-
-[node name="BarrierJerseyFence_38" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -52.3)
-
-[node name="BarrierJerseyFence_39" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -57.3)
-
-[node name="BarrierJerseyFence_40" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -62.3)
-
-[node name="BarrierJerseyFence_41" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 55.9, -11.237, -67.3)
 
 [node name="BarrierJerseyFence_09" parent="RiverSideCostruction" instance=ExtResource("123_43k0a")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 33.4, -11.237, 13.1)
@@ -11497,390 +11518,455 @@ metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1280" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 370.322)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1283" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 383.122)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1284" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 395.922)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1285" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 408.722)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1286" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 421.422)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1287" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 434.222)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1288" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 447.022)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1289" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-3.58063e-08, 0.573577, 0.819152, 2.50718e-08, 0.819152, -0.573577, -1, 0, -4.37114e-08, -2627.07, 67.9664, 459.822)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1281" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0.573576, 0.819152, -2.50718e-08, 0.819152, -0.573577, -3.58063e-08, -2652.47, 67.983, 344.97)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1282" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0.573576, 0.819152, -2.50718e-08, 0.819152, -0.573577, -3.58063e-08, -2665.27, 67.983, 344.97)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1290" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 446.481)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1291" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 433.681)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1292" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 420.881)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1293" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 408.081)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1294" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 395.381)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1295" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 382.581)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1296" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 369.781)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1297" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(1.23229e-07, -0.573576, -0.819152, 2.50718e-08, 0.819152, -0.573576, 1, 5.01436e-08, 1.15324e-07, -2677.89, 67.9664, 356.981)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1298" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-2.79012e-08, 5.01437e-08, 1, 0.573576, 0.819152, -2.50718e-08, -0.819152, 0.573577, -5.16165e-08, -2652.49, 67.983, 470.833)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_1280x1299" parent="." instance=ExtResource("186_5su0j")]
 transform = Transform3D(-2.79012e-08, 5.01437e-08, 1, 0.573576, 0.819152, -2.50718e-08, -0.819152, 0.573577, -5.16165e-08, -2639.69, 67.983, 470.833)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2560" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1.15, 0, 0, 0, 1.15, 0, 0, 0, 1.15, -2667.18, 75.3259, 384.694)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2561" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1.15, 0, 0, 0, 1.15, 0, 0, 0, 1.15, -2667.18, 75.3259, 414.094)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2562" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1.15, 0, 0, 0, 1.15, 0, 0, 0, 1.15, -2667.18, 75.3259, 443.394)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2563" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(0.675, 0, 0, 0, 0.675, 0, 0, 0, 0.675, -2667.18, 75.3259, 460.294)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2565" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2676.61, 64.8327, 470.723)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2566" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652.45, 64.8897, 470.739)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2567" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2676.61, 64.8327, 445.094)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2568" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652.45, 64.8897, 445.11)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2569" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2676.61, 64.8327, 419.495)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2570" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652.45, 64.8897, 419.51)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2571" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2676.61, 64.8327, 393.962)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2572" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652.45, 64.8897, 393.977)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2573" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2676.61, 64.998, 370.681)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2574" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652.45, 65.0549, 370.697)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_2560x2564" parent="." instance=ExtResource("187_dgfkf")]
 transform = Transform3D(0.675, 0, 0, 0, 0.675, 0, 0, 0, 0.675, -2654.98, 75.2968, 460.294)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x640" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2640.15, 67.9913, 470.671)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x641" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2677.46, 67.9913, 470.671)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x642" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-2, 0, 1.74846e-07, 0, 2, 0, -1.74846e-07, 0, -2, -2627.41, 68.182, 345.391)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x644" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-0.573576, 5.04261e-08, 0.819152, -0.819152, -3.58063e-08, -0.573576, 4.07578e-10, -1, 6.18443e-08, -2627.41, 68.182, 357.391)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x645" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-0.573576, 5.04261e-08, 0.819152, -0.819152, -3.58063e-08, -0.573576, 4.07578e-10, -1, 6.18443e-08, -2632.36, 71.6422, 357.391)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x648" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-5.24537e-08, 1.2, 0, -1.2, -5.24537e-08, 0, 0, 0, 1.2, -2637.71, 75.282, 362.991)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x649" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2.29282e-15, -5.24537e-08, 1.2, -1.2, -5.24537e-08, 0, 5.24537e-08, -1.2, -5.24537e-08, -2637.71, 75.182, 355.191)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x646" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2.54794e-08, -1, 2.6038e-08, -0.819152, -3.58063e-08, -0.573576, 0.573576, -6.71469e-09, -0.819152, -2639.91, 67.982, 344.991)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x647" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2.54794e-08, -1, 2.6038e-08, -0.819152, -3.58063e-08, -0.573576, 0.573576, -6.71469e-09, -0.819152, -2639.91, 71.6046, 350.163)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x650" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-2.14481e-08, -0.5, 6.18443e-08, -0.409576, -1.79031e-08, -0.286788, 0.286788, -6.2962e-08, -0.409576, -2665.21, 67.9832, 345)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x668" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-2.78825e-08, -0.65, 8.03975e-08, -0.532449, -2.32741e-08, -0.372825, 0.372825, -8.18506e-08, -0.532449, -2665.21, 69.5832, 347.7)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x651" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2.54794e-08, -1, 2.6038e-08, -0.819152, -3.58063e-08, -0.573576, 0.573576, -6.71469e-09, -0.819152, -2665.21, 71.4434, 349.952)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x652" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2.29282e-15, -5.24537e-08, 1.2, -1.2, -5.24537e-08, 0, 5.24537e-08, -1.2, -5.24537e-08, -2659.61, 75.0832, 355.3)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x653" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(5.24537e-08, -1.2, -1.04907e-07, -1.2, -5.24537e-08, 1.86353e-22, -4.58564e-15, 1.04907e-07, -1.2, -2667.41, 74.9832, 355.3)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x654" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(0.573576, 3.69967e-08, -0.819152, -0.819152, -3.58063e-08, -0.573576, -5.05512e-08, 1, 9.76828e-09, -2677.61, 67.7832, 357.5)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x655" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(0.573576, 3.69967e-08, -0.819152, -0.819152, -3.58063e-08, -0.573576, -5.05512e-08, 1, 9.76828e-09, -2672.44, 71.4058, 357.5)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x656" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(0.573576, 3.69967e-08, -0.819152, -0.819152, -3.58063e-08, -0.573576, -5.05512e-08, 1, 9.76828e-09, -2677.52, 67.9832, 459.19)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x657" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(0.573576, 3.69967e-08, -0.819152, -0.819152, -3.58063e-08, -0.573576, -5.05512e-08, 1, 9.76828e-09, -2672.56, 71.4434, 459.19)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x658" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(5.24537e-08, -1.2, -1.04907e-07, -1.2, -5.24537e-08, 1.86353e-22, -4.58564e-15, 1.04907e-07, -1.2, -2667.22, 75.0832, 452.54)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x659" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-6.87847e-15, 1.57361e-07, -1.2, -1.2, -5.24537e-08, 5.08387e-23, -5.24537e-08, 1.2, 1.57361e-07, -2667.22, 74.9832, 460.34)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x660" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-7.5623e-08, 1, 4.55746e-08, -0.819152, -3.58063e-08, -0.573576, -0.573576, -8.07081e-08, 0.819152, -2665.02, 67.9897, 470.635)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x661" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-7.5623e-08, 1, 4.55746e-08, -0.819152, -3.58063e-08, -0.573576, -0.573576, -8.07081e-08, 0.819152, -2665.02, 71.6124, 465.463)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x662" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-3.78115e-08, 0.5, 2.27873e-08, -0.409576, -1.79031e-08, -0.286788, -0.286788, -4.0354e-08, 0.409576, -2639.56, 67.9832, 470.655)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x669" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-4.9155e-08, 0.65, 2.96235e-08, -0.532449, -2.32741e-08, -0.372825, -0.372825, -5.24603e-08, 0.532449, -2639.56, 69.6832, 468.155)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x663" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-7.5623e-08, 1, 4.55746e-08, -0.819152, -3.58063e-08, -0.573576, -0.573576, -8.07081e-08, 0.819152, -2639.56, 71.4434, 465.703)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x664" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-6.87847e-15, 1.57361e-07, -1.2, -1.2, -5.24537e-08, 5.08387e-23, -5.24537e-08, 1.2, 1.57361e-07, -2645.34, 75.0832, 460.355)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x665" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-5.24537e-08, 1.2, 2.09815e-07, -1.2, -5.24537e-08, 1.01677e-22, 9.17129e-15, -2.09815e-07, 1.2, -2637.54, 74.9832, 460.355)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x666" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-0.573576, -1.24419e-07, 0.819152, -0.819152, -3.58063e-08, -0.573576, 1.00695e-07, -1, -8.13808e-08, -2627.24, 67.9897, 459.584)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x667" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(-0.573576, -1.24419e-07, 0.819152, -0.819152, -3.58063e-08, -0.573576, 1.00695e-07, -1, -8.13808e-08, -2632.41, 71.6124, 459.584)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
 
 [node name="[🔴RedBuildRoof] BlockRoof_01_640x643" parent="." instance=ExtResource("188_qe51c")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2677.46, 67.9913, 358.033)
+visible = false
 metadata/organizer_color = Color(0, 1, 0, 1)
 metadata/organizer_group = "RedBuildRoof"
 metadata/organizer_symbol = "🔴"
@@ -12257,14 +12343,11 @@ transform = Transform3D(-0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, -0.866025, -2912.25
 [node name="Art_Structure_01" parent="." instance=ExtResource("205_esj2m")]
 transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, -2886.38, 58.7553, 188.772)
 
-[node name="Dumpster_01_C" parent="." instance=ExtResource("204_esj2m")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3253.66, 58, 463.25)
-
 [node name="Dumpster_02" parent="." instance=ExtResource("205_bi5jj")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3254.16, 58, 453.25)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3254.16, 58, 455.25)
 
 [node name="Dumpster_03" parent="." instance=ExtResource("205_bi5jj")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3254.16, 58, 456.45)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3254.16, 58, 458.45)
 
 [node name="Dumpster_01_Open" parent="." instance=ExtResource("206_tjvdw")]
 transform = Transform3D(0.642788, 0, -0.766044, 0, 1, 0, 0.766044, 0, 0.642788, -3234.26, 58, 470.45)
@@ -13060,3 +13143,345 @@ transform = Transform3D(0.87805, 0, -0.478569, 0, 1, 0, 0.478569, 0, 0.87805, -3
 
 [node name="CinderblockStack_01_A_121" parent="." instance=ExtResource("442_db4x7")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3222.89, 66.0497, 318.621)
+
+[node name="OfficeDividerWood_01_512" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2657, 58, 464)
+
+[node name="OfficeDividerWood_01_513" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2657, 58, 457.4)
+
+[node name="OfficeDividerWood_01_514" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2653, 58, 402.4)
+
+[node name="OfficeDividerWood_01_515" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2653, 58, 389.4)
+
+[node name="OfficeDividerWood_01_516" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2653, 58, 385.4)
+
+[node name="OfficeDividerWood_01_517" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2653, 58, 406.4)
+
+[node name="OfficeDividerWood_01_518" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2645, 58, 406.4)
+
+[node name="OfficeDividerWood_01_519" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2645, 58, 390.9)
+
+[node name="OfficeDividerWood_01_520" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2645, 58, 398.4)
+
+[node name="OfficeDividerWood_01_521" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2645, 58, 406.4)
+
+[node name="OfficeDividerWood_01_525" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2637.9, 58, 406.4)
+
+[node name="OfficeDividerWood_01_522" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2645, 58, 393.4)
+
+[node name="OfficeDividerWood_01_524" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2637.8, 58, 393.4)
+
+[node name="OfficeDividerWood_01_523" parent="." instance=ExtResource("319_viv7y")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2645, 58, 385.8)
+
+[node name="OfficeDividerWood_01_256" parent="." instance=ExtResource("320_qg5ry")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2657, 58, 461.3)
+
+[node name="OfficeDividerWood_01_257" parent="." instance=ExtResource("320_qg5ry")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2657, 58, 454.7)
+
+[node name="LoungeTable_01" parent="." instance=ExtResource("321_6tlx8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2641, 58, 455)
+
+[node name="LoungeTable_03" parent="." instance=ExtResource("322_cptg7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2643, 58, 457)
+
+[node name="LoungeChair_01" parent="." instance=ExtResource("323_1uwib")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2639, 58, 456)
+
+[node name="PatioChair_02" parent="." instance=ExtResource("324_dyn22")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2643, 58, 453)
+
+[node name="BarCounterCabinet_03_128" parent="." instance=ExtResource("325_amaps")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2645, 58, 453)
+
+[node name="BarCounterCabinet_03_256" parent="." instance=ExtResource("326_sy4xd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2643, 58, 451)
+
+[node name="BarCounterFridge_01" parent="." instance=ExtResource("327_tnkap")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2648, 58, 454)
+
+[node name="BarCounterGlassFridge_01" parent="." instance=ExtResource("328_0e2qp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2646, 58, 456)
+
+[node name="BarCounterWorkStation_01" parent="." instance=ExtResource("329_kexyf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2639, 58, 451)
+
+[node name="BarCounter_02" parent="." instance=ExtResource("330_biumw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2642, 58, 444)
+
+[node name="CounterStore_02" parent="." instance=ExtResource("331_34f1i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2646, 58, 447)
+
+[node name="Laptop_01" parent="." instance=ExtResource("332_5lo51")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2644, 58, 447)
+
+[node name="CoffeeShopStool_01_A" parent="." instance=ExtResource("333_bix6h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2646, 58, 446)
+
+[node name="AgaveAmericanaPotted_01_S_A" parent="." instance=ExtResource("334_fq68y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2649, 58, 447)
+
+[node name="BananaPotted_01_S_C" parent="." instance=ExtResource("335_t3eoc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2650, 58, 446)
+
+[node name="BoxwoodPotted_01_S_A" parent="." instance=ExtResource("336_o5y48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2650, 58, 444)
+
+[node name="BoxwoodPotted_01_S_B" parent="." instance=ExtResource("337_xu0iv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2649, 58, 442)
+
+[node name="DracaenaPotted_01_S_A" parent="." instance=ExtResource("338_gvm5h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2647, 58, 441)
+
+[node name="DracaenaPotted_01_S_B" parent="." instance=ExtResource("339_j24y0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2648, 58, 443)
+
+[node name="DracaenaPotted_01_S_C" parent="." instance=ExtResource("340_qogiv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2645, 58, 441)
+
+[node name="EucalyptusSilverDollarPotted_01_M_A" parent="." instance=ExtResource("341_5eas4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2641, 58, 440)
+
+[node name="EucalyptusSilverDollarPotted_01_M_B" parent="." instance=ExtResource("342_c3r02")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2643, 58, 440)
+
+[node name="EuonymusGreenPotted_01_S" parent="." instance=ExtResource("343_kd8vv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2645, 58, 442)
+
+[node name="FigWeepingPotted_01_M_A" parent="." instance=ExtResource("344_1xaul")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2644, 58, 442)
+
+[node name="FlowerMiscPotted_01_S_A" parent="." instance=ExtResource("345_l2ikj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2642, 58, 442)
+
+[node name="FlowerMiscPotted_01_S_C" parent="." instance=ExtResource("346_8a8g2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2646, 58, 442)
+
+[node name="FlowerMiscPotted_01_S_D" parent="." instance=ExtResource("347_uqff3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2647, 58, 445)
+
+[node name="FlowerMiscPotted_03_S" parent="." instance=ExtResource("348_otnlg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2645, 58, 444)
+
+[node name="FlowerMiscPotted_04_S" parent="." instance=ExtResource("349_30krh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2651, 58, 441)
+
+[node name="FlowerMiscPotted_05_S" parent="." instance=ExtResource("350_btt0h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652, 58, 442)
+
+[node name="PalmMajestyPotted_01_M_A" parent="." instance=ExtResource("351_bgebd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2654, 58, 440)
+
+[node name="FlowerMiscPotted_09_S" parent="." instance=ExtResource("352_8n30m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2654, 58, 442)
+
+[node name="PottedPlant_03" parent="." instance=ExtResource("353_snupu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2653, 58, 438)
+
+[node name="PottedPlant_05" parent="." instance=ExtResource("354_r4a03")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652, 58, 438)
+
+[node name="RubberPlantPotted_01_S_B" parent="." instance=ExtResource("355_2py7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2653, 58, 437)
+
+[node name="CoffeeMaker_01" parent="." instance=ExtResource("355_7u5kj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652, 58, 440)
+
+[node name="BeverageFridge_01_B" parent="." instance=ExtResource("356_dkexw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2650, 58, 438)
+
+[node name="CoveredFurniture_01_A" parent="." instance=ExtResource("357_oegou")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2646, 58, 438)
+
+[node name="CoveredFurniture_01_C" parent="." instance=ExtResource("358_874uh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2644, 58, 438)
+
+[node name="ShelfMetal_01" parent="." instance=ExtResource("359_tcpo2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2640, 57.74, 400)
+
+[node name="ShelfMetal_02" parent="." instance=ExtResource("359_tcpo2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2669.1, 57.74, 418.9)
+
+[node name="ShelfMetal_03" parent="." instance=ExtResource("359_tcpo2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2674.1, 57.74, 418.9)
+
+[node name="WaterTower_03" parent="." instance=ExtResource("360_die2c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2699, 65, 404)
+
+[node name="TrashCan_01_A" parent="." instance=ExtResource("361_ulqdq")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -2649.7, 57.7836, 401.634)
+
+[node name="GardenTable_01" parent="." instance=ExtResource("362_ee0ft")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2652.23, 57.719, 400.077)
+
+[node name="TableFoldable_01_A" parent="." instance=ExtResource("363_plsok")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2649, 57.7578, 390.059)
+
+[node name="TableFoldable_01_B" parent="." instance=ExtResource("364_iga3d")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2650.96, 57.7751, 401.822)
+
+[node name="TableRestaurantSquare_01" parent="." instance=ExtResource("365_5daum")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2644, 58, 402)
+
+[node name="FoldingTable_01" parent="." instance=ExtResource("366_gpayw")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -2648.66, 57.7656, 401.899)
+
+[node name="CollapsibleTable_02" parent="." instance=ExtResource("266_ljxmh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2651.32, 57.7216, 390.124)
+
+[node name="CastIronChair_01" parent="." instance=ExtResource("367_qiyu6")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -2651.62, 57.7489, 390.836)
+
+[node name="ChairFolding_01_B" parent="." instance=ExtResource("368_721u1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2651, 58, 397)
+
+[node name="ChairFolding_01_A" parent="." instance=ExtResource("369_d0ym3")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -2649.11, 57.7224, 390.591)
+
+[node name="GardenChair_01" parent="." instance=ExtResource("370_2jgg2")]
+transform = Transform3D(1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, -2649, 57.7734, 400.726)
+
+[node name="PatioChair_01" parent="." instance=ExtResource("371_u1tul")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2650.66, 57.766, 399.125)
+
+[node name="BoxesCardboardStack_01_A2" parent="." instance=ExtResource("253_m33uq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2671.22, 57.7733, 412.69)
+
+[node name="BoxesCardboardStack_01_B" parent="." instance=ExtResource("372_bb1j4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2671.21, 57.7675, 411.234)
+
+[node name="BoxesCardboardStack_01_D" parent="." instance=ExtResource("373_sqj36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2671.33, 57.7735, 409.712)
+
+[node name="BoxesCardboardStack_02_A2" parent="." instance=ExtResource("473_i7lx6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2670.3, 57.7707, 407.839)
+
+[node name="BoxesCardboardStack_02_B" parent="." instance=ExtResource("374_jk0ns")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2670.68, 57.7667, 405.934)
+
+[node name="BoxesCardboardStack_02_C3" parent="." instance=ExtResource("254_nmx6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2671.58, 57.7731, 404.273)
+
+[node name="BoxesCardboardStack_03_A2" parent="." instance=ExtResource("255_eqsnq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2673.8, 57.7675, 404.765)
+
+[node name="BoxesCardboardStack_03_B" parent="." instance=ExtResource("375_fl5t2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2673.79, 57.766, 406.729)
+
+[node name="BorderFenceDoorFrame_01" parent="." instance=ExtResource("376_re36l")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3280.94, 58, 421.456)
+
+[node name="BorderFence_01_2048" parent="." instance=ExtResource("377_xo8vd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3278.38, 58, 428.989)
+
+[node name="BorderFencePole_02" parent="." instance=ExtResource("378_t28id")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3280.94, 59, 428.91)
+
+[node name="BorderFencePole_03" parent="." instance=ExtResource("378_t28id")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3280.94, 59, 418.91)
+
+[node name="BorderFence_01_512" parent="." instance=ExtResource("379_3p7pc")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3280.76, 62.5669, 429.1)
+
+[node name="BorderFenceVehicleGate_01" parent="." instance=ExtResource("380_x0mlr")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3281, 58, 416.342)
+
+[node name="BorderFenceVehicleGate_02" parent="." instance=ExtResource("380_x0mlr")]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -3281, 58, 411.583)
+
+[node name="BorderFenceDoor_01" parent="." instance=ExtResource("381_imrp1")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -3280.96, 57.858, 421.486)
+
+[node name="CoverMedium_02" parent="." instance=ExtResource("382_lo5ts")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3253.41, 58.0518, 461.594)
+
+[node name="ChainLinkFenceTarp_01_512" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 507)
+
+[node name="ChainLinkFenceTarp_01_513" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 502)
+
+[node name="ChainLinkFenceTarp_01_514" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 497)
+
+[node name="ChainLinkFenceTarp_01_515" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 492)
+
+[node name="ChainLinkFenceTarp_01_516" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 487)
+
+[node name="ChainLinkFenceTarp_01_517" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 482)
+
+[node name="ChainLinkFenceTarp_01_518" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 477)
+
+[node name="ChainLinkFenceTarp_01_519" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 472)
+
+[node name="ChainLinkFenceTarp_01_520" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 467)
+
+[node name="ChainLinkFenceTarp_01_521" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 462)
+
+[node name="ChainLinkFenceTarp_01_522" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 457)
+
+[node name="ChainLinkFenceTarp_01_523" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 452)
+
+[node name="ChainLinkFenceTarp_01_524" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 447)
+
+[node name="ChainLinkFenceTarp_01_525" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 442)
+
+[node name="ChainLinkFenceTarp_01_526" parent="." instance=ExtResource("383_cdxbq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3241, 58, 437)
+
+[node name="BannerWall_01" parent="." instance=ExtResource("384_gi0ny")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3234, 59, 444)
+
+[node name="StorageWallReinforced_01_1024x768" parent="." instance=ExtResource("385_u6m8d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3234, 58, 440)
+
+[node name="StorageWallReinforced_01_512x384" parent="." instance=ExtResource("386_q4ffr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3224, 58, 437)
+
+[node name="StorageWallLarge_01_C_512x384_OpaqueIndestructible" parent="." instance=ExtResource("387_ujngg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3223, 58, 432)
+
+[node name="WallBasement_01_128" parent="." instance=ExtResource("388_fsm1r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3231, 61, 434)
+
+[node name="WallBasement_01_128_C90" parent="." instance=ExtResource("389_jaahk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3234, 61, 435)
+
+[node name="WallBasement_01_128_End" parent="." instance=ExtResource("390_puxub")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3237, 61, 436)
+
+[node name="WallBasement_01_256" parent="." instance=ExtResource("391_s8xhn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3230, 61, 432)
+
+[node name="WallRack_01" parent="." instance=ExtResource("392_gfr7b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2651, 59, 407)
+
+[node name="BarrierConcreteWall_01_192x320" parent="." instance=ExtResource("121_anlb2")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3255.3, 57.8272, 438.7)
+
+[node name="BarrierConcreteWall_01_192x335" parent="." instance=ExtResource("121_anlb2")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3255.3, 57.8272, 436.7)
